@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+/* A fábrica de refrigerantes Meia-Cola vende seu produto em três
+formatos: lata de 350 ml,
+garrafa de 600 ml e garrafa de 2 litros. Se um comerciante compra uma determinada
+quantidade de cada formato, faça um algoritmo para calcular quantos litros de refrigerante ele
+comprou.*/
+
+       
+
+        var quantLata = parseInt(window.prompt(`Informe a quantidade de latas:`) * 0.35);
+        var quantgarrafa600ml = parseInt(window.prompt(`Informe a quantidade de garrafas pequenas:`) * 0.6);
+        var quantgarrafa2L = parseInt(window.prompt(`Informe a quantidade de garrafas grandes:`) * 2);
+
+        var quantTotal = parseFloat(quantLata + quantgarrafa600ml + quantgarrafa2L)
+            console.log(`A quantidade total é de ${quantTotal} litros`)
+
+    </script>
+</body>
+</html>
